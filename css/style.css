@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    background-color: #47476b;
+    background-image: url("https://i.imgur.com/qle194G.jpeg");
+  }
+header {
+  background-color: #0b060e;
+  height: 7%;
+  width: 100%;
+  position:fixed;
+  z-index: 1;
+  display:flex;   
+  
+}
+nav {
+  font-size: larger;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#header {
+  border: 1px solid #0b060e;
+  border-radius: 15%;  
+  opacity: 0.9;
+}  
+section {
+    color:white;
+    width: 60%;
+  }
+li {
+    margin: 2px
+    
+  }
+.hero-image {
+    height: 95vh;
+    width: 100%;
+    background: #444444;
+    background-image: url("https://i.imgur.com/VmUkTDX.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    display: flex;
+  }
+#footer {
+   background: #0b060e;
+   height: 100px;
+   font-family: 'Open Sans', sans-serif;
+   color: #FFFFFF;
+   padding: 20px;
+   text-align:center;
+      
+  }
+.text-color-white {
+    color:white;
+  }
+.nav-bar {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+.nav-buttons {  
+  text-align: center;
+  display: flex;  
+  list-style: none;
+  justify-content: center;
+}
+.nav-margin {
+  margin-left: 3rem;
+}  
+.hero-text {
+  margin-top: 7rem;
+
+}
+.logo-image {
+  width: 80px;
+  height: 50px;
+  border-radius: 50%;  
+  overflow: hidden;  
+}  
+.logo-image img {
+  height: 100%;
+}
