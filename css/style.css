@@ -7,6 +7,7 @@ body {
     font-size: medium;
     background-color: #47476b;
     background-image: url("https://i.imgur.com/qle194G.jpeg");
+    overflow-x:hidden;
   }
 header {
   background-color: #0b060e;
@@ -34,7 +35,7 @@ img {
 }  
 section {
     color:white;
-    width: 60%;
+    
   }
 li {
     margin: 2px
@@ -51,6 +52,8 @@ li {
     font-family: 'Open Sans', sans-serif;
     padding: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 #footer {
    background: #0b060e;
@@ -77,10 +80,16 @@ li {
 }
 .nav-margin {
   margin-left: 3rem;
+}
+.nav-margin:hover {
+  transform:scale(1.1);
 }  
 .hero-text {
-  margin-top: 7rem;
-
+  font-size: 2.5rem;
+  text-align: justify ;
+  color:azure;
+  max-width: 80%; 
+  font-family:'Lucida Console';
 }
 .logo-image {
   width: 80px;
@@ -90,4 +99,15 @@ li {
 }  
 .logo-image img {
   height: 100%;
+}
+.home-text {
+  max-width: 95%;
+  font-family: 'Lucida Console', monospace;
+  text-align: justify;
+  display: flex;
+}
+.home-img {
+  width: 50vw;
+  display: flex;
+
 }
