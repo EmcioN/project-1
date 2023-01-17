@@ -3,7 +3,7 @@ html, body {
     width: 100%;
   }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lucida Console', 'Open Sans', sans-serif;
     font-size: medium;
     background-color: #47476b;
     background-image: url("https://i.imgur.com/qle194G.jpeg");
@@ -11,7 +11,7 @@ body {
   }
 header {
   background-color: #0b060e;
-  height: 7%;
+  height: 12vh;
   width: 100%;
   position:fixed;
   z-index: 1;
@@ -19,8 +19,7 @@ header {
   
 }
 nav {
-  font-size: larger;
-  font-family: 'Open Sans', sans-serif;
+  font-size: larger;  
   
 }
 img {
@@ -31,7 +30,8 @@ img {
 #header {
   border: 1px solid #0b060e;
   border-radius: 15%;  
-  opacity: 0.9;
+  
+  
 }  
 section {
     color:white;
@@ -48,8 +48,7 @@ li {
     background-image: url("https://i.imgur.com/VmUkTDX.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    font-family: 'Open Sans', sans-serif;
+    background-position: center;    
     padding: 20px;
     display: flex;
     align-items: center;
@@ -58,7 +57,7 @@ li {
 #footer {
    background: #0b060e;
    height: 100px;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Lucida Console';
    color: #FFFFFF;
    padding: 20px;
    text-align:center;
@@ -77,9 +76,10 @@ li {
   display: flex;  
   list-style: none;
   justify-content: center;
+  font-family:'Lucida Console';  
 }
 .nav-margin {
-  margin-left: 3rem;
+  margin-left: 3rem;  
 }
 .nav-margin:hover {
   transform:scale(1.1);
@@ -104,10 +104,35 @@ li {
   max-width: 95%;
   font-family: 'Lucida Console', monospace;
   text-align: justify;
-  display: flex;
+  display: flex;  
+  padding: 1rem;
+  margin: 1.5rem;
+  font-size: 1.5rem;
 }
 .home-img {
   width: 50vw;
+  margin: 1.5rem;
   display: flex;
+  align-items: center;
+  justify-content: center;  
 
+}
+.home-div {
+  display: flex; 
+  margin: 1.5rem; 
+
+}
+.span-size {
+  font-size: 2.5rem;
+  font-weight: 300; 
+  margin: 2rem 0; 
+
+}
+.text-position {
+  margin: 3rem 1.5rem;
+  padding: 1rem 1rem;
+  
+}
+.space-between {
+  margin-bottom: 3rem;
 }
