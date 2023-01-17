@@ -138,11 +138,19 @@ li {
   margin-bottom: 3rem;
 }
 .gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 100vw;
+  margin: 10px;    
+  width: 40vw;
+  display: inline;    
 }
 .empty {
-  max-height: 1rem;
+  max-height: 5rem;
+}
+.box-shadow {
+  box-shadow: rgba(136, 12, 136, 0.35) 0px 5px 15px;
+  width: 500px;
+  margin: 10px 10px;
+}
+img.box-shadow:hover {
+  box-shadow: rgba(136, 12, 136, 0.35) 10px 15px 25px;
+
 }
