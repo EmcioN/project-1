@@ -131,8 +131,18 @@ li {
 .text-position {
   margin: 3rem 1.5rem;
   padding: 1rem 1rem;
+  width: 70vw
   
 }
 .space-between {
   margin-bottom: 3rem;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100vw;
+}
+.empty {
+  max-height: 1rem;
 }
