@@ -1,10 +1,11 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-size: 62.5%;
   }
 body {
     font-family: 'Lucida Console', 'Open Sans', sans-serif;
-    font-size: medium;
+    font-size: 2rem;
     background-color: #47476b;
     background-image: url("https://i.imgur.com/qle194G.jpeg");
     overflow-x:hidden;
@@ -19,7 +20,7 @@ header {
   
 }
 nav {
-  font-size: larger;  
+  font-size: 2rem;  
   
 }
 img {
@@ -34,7 +35,7 @@ img {
   
 }  
 section {
-    color:white;
+    color:#ffffff;
     
   }
 li {
@@ -49,22 +50,22 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;    
-    padding: 20px;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 #footer {
    background: #0b060e;
-   height: 100px;
+   height: 10rem;
    font-family: 'Lucida Console';
-   color: #FFFFFF;
-   padding: 20px;
+   color: #ffffff;
+   padding: 2rem;
    text-align:center;
       
   }
 .text-color-white {
-    color:white;
+    color:#ffffff;
   }
 .nav-bar {
   display: flex;  
@@ -87,13 +88,13 @@ li {
 .hero-text {
   font-size: 2rem;
   text-align: justify ;
-  color:azure;
+  color:#8cb9b9;
   max-width: 80%; 
   font-family:'Lucida Console';
 }
 .logo-image {
-  width: 80px;
-  height: 50px;
+  width: 8rem;
+  height: 5rem;
   border-radius: 50%;  
   overflow: hidden;  
 }  
@@ -110,7 +111,7 @@ li {
   font-size: 1.5rem;
 }
 .home-img {
-  width: 50vw;
+  width: 5rem;
   margin: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -139,7 +140,7 @@ li {
   margin-bottom: 3rem;
 }
 .gallery {
-  margin: 10px;    
+  margin: 1rem;    
   width: 40vw;
   display: inline;    
 }
