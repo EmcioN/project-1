@@ -217,6 +217,13 @@ img.box-shadow:hover {
   box-shadow: rgba(136, 12, 136, 0.35) 10px 15px 25px;  
 
 }
+/* Download section */
+
+.download-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 
 /* footer */
@@ -225,9 +232,13 @@ img.box-shadow:hover {
 #footer {
   background: #0b060e;
   height: 10rem;
+  width: 100%;
   font-family: 'Lucida Console';
   color: #ffffff;
   padding: 2rem;
   text-align:center;
      
+ }
+ #footer a {
+  text-decoration: none;
  }
