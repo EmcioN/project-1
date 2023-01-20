@@ -16,7 +16,9 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
-
+.text-color-white {
+  color:#ffffff;
+}
 
 section {
     color:#ffffff;
@@ -42,7 +44,15 @@ header {
 nav {
   font-size: 2rem;
 }
-
+.logo-image {
+  width: 8rem;
+  height: 5rem;
+  border-radius: 50%;  
+  overflow: hidden;  
+}  
+.logo-image img {
+  height: 100%;
+}
 .nav-bar {
   display: flex;  
   align-items: center;
@@ -62,6 +72,53 @@ nav {
 .nav-bar li:hover{
   transform:scale(1.1);
 }
+.menu-button {
+  position: absolute;
+  top: 2rem;
+  right: 9rem;  
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 3rem;
+  height: 2rem;
+  
+}
+.menu-button .line {
+  height: 3px;
+  width: 100%;
+  background-color: #9422d6;
+  border-radius: 1rem;
+
+}
+
+@media (max-width: 40rem) {
+  .menu-button {
+    display: flex;
+   }  
+  
+  .header {
+    flex-direction: column;
+    align-items: center;
+   }
+  .nav-buttons {
+    display: none;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    width: 25rem;
+    position: fixed;
+    right: 1rem;
+    top: 4rem;
+    background-color: #0b060e;
+    border-radius: 10rem;
+   }
+  .nav-buttons li {
+    text-align: center;
+    padding: 1rem;
+  
+   
+   }
+}
 
 /* hero image */
 
@@ -77,11 +134,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-.text-color-white {
-    color:#ffffff;
-  }
+}
 
 .hero-text {
   font-size: 2rem;
@@ -90,15 +143,7 @@ nav {
   max-width: 80%; 
   font-family:'Lucida Console';
 }
-.logo-image {
-  width: 8rem;
-  height: 5rem;
-  border-radius: 50%;  
-  overflow: hidden;  
-}  
-.logo-image img {
-  height: 100%;
-}
+
 
 #footer {
   background: #0b060e;
