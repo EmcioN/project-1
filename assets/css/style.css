@@ -135,7 +135,7 @@ nav {
     height: 90rem;
     width: 100%;
     background: #444444;
-    background-image: url("https://i.imgur.com/VmUkTDX.jpg"); 
+    background-image: url("../img/hero1.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;    
@@ -184,6 +184,20 @@ nav {
 }
 
 /* gallery */
+
+.hero-image-gallery {
+  height: 90rem;
+  width: 100%;
+  background: #444444;
+  background-image: url("../img/hero2.png"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;    
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .span-size {
   font-size: 2.5rem;
