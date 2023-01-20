@@ -1,4 +1,4 @@
-html, body {
+html {
     height: 100%;
     width: 100%;
     font-size: 62.5%;
@@ -7,66 +7,42 @@ body {
     font-family: 'Lucida Console', 'Open Sans', sans-serif;
     font-size: 2rem;
     background-color: #47476b;
-    background-image: url("https://i.imgur.com/qle194G.jpeg");
-    overflow-x:hidden;
-  }
-header {
-  background-color: #0b060e;
-  height: 12vh;
-  width: 100%;
-  position:fixed;
-  z-index: 1;
-  display:flex;   
-  
-}
-nav {
-  font-size: 2rem;  
-  
-}
+    background-image: url("https://i.imgur.com/qle194G.jpeg");    
+    margin: 0;
+    padding: 0;    
+  }      
+
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-#header {
-  border: 1px solid #0b060e;
-  border-radius: 15%;  
-  
-  
-}  
+
 section {
     color:#ffffff;
     
   }
-li {
-    margin: 2px
-    
-  }
-.hero-image {
-    height: 95vh;
-    width: 100%;
-    background: #444444;
-    background-image: url("https://i.imgur.com/VmUkTDX.jpg"); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;    
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-#footer {
-   background: #0b060e;
-   height: 10rem;
-   font-family: 'Lucida Console';
-   color: #ffffff;
-   padding: 2rem;
-   text-align:center;
-      
-  }
-.text-color-white {
-    color:#ffffff;
-  }
+
+  /* navbar */
+header {
+  background-color: #0b060e;
+  height: 6rem;
+  width: 100%;
+  position:fixed;
+  z-index: 1;
+  display:flex;
+}
+
+#header {
+  border: 1px solid #0b060e;
+  border-radius: 17%;  
+  
+  
+}  
+nav {
+  font-size: 2rem;
+}
+
 .nav-bar {
   display: flex;  
   align-items: center;
@@ -79,12 +55,34 @@ li {
   justify-content: center;
   font-family:'Lucida Console';  
 }
-.nav-margin {
-  margin-left: 3rem;  
+
+.nav-bar li {
+  margin-left: 3rem;
 }
-.nav-margin:hover {
+.nav-bar li:hover{
   transform:scale(1.1);
-}  
+}
+
+/* hero image */
+
+.hero-image {
+    height: 90rem;
+    width: 100%;
+    background: #444444;
+    background-image: url("https://i.imgur.com/VmUkTDX.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.text-color-white {
+    color:#ffffff;
+  }
+
 .hero-text {
   font-size: 2rem;
   text-align: justify ;
@@ -101,6 +99,17 @@ li {
 .logo-image img {
   height: 100%;
 }
+
+#footer {
+  background: #0b060e;
+  height: 10rem;
+  font-family: 'Lucida Console';
+  color: #ffffff;
+  padding: 2rem;
+  text-align:center;
+     
+ }
+
 .home-text {
   max-width: 100%;
   font-family: 'Lucida Console', monospace;
