@@ -63,14 +63,16 @@ nav {
   display: flex;  
   list-style: none;
   justify-content: center;
-  font-family:'Lucida Console';  
+  font-family:'Lucida Console'; 
+  text-decoration: none;
+
 }
 
 .nav-bar li {
   margin-left: 3rem;
 }
-.nav-bar li:hover{
-  transform:scale(1.1);
+.nav-buttons  li:hover{
+  transform: scale(1.1);
 }
 .menu-button {
   position: absolute;
