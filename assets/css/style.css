@@ -118,6 +118,9 @@ nav {
   
    
    }
+   .nav-buttons.active{
+    display: flex;
+   }
 }
 
 /* hero image */
