@@ -4,9 +4,9 @@ html {
   width: 100%;
     
   }
-  * {
-    outline: 1px solid red;
-    box-sizing: border-box;    
+  * {    
+    box-sizing: border-box;
+        
   }  
 body {
     font-family: 'Lucida Console', 'Open Sans', sans-serif;
@@ -14,7 +14,8 @@ body {
     background-color: #47476b;
     background-image: url("https://i.imgur.com/qle194G.jpeg");    
     margin: 0;
-    padding: 0;    
+    padding: 0;
+    position: absolute;    
   }      
 
 img {
@@ -122,6 +123,7 @@ nav {
   max-width: 90%; 
   font-family:'Lucida Console';
   margin-top: 7rem;
+  word-break: break-all;
 }
 
 
@@ -170,6 +172,15 @@ nav {
 
 /* gallery */
 
+.div-gallery {
+  width: 95%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);  
+  grid-gap: 1rem;
+  align-items: center;
+
+}
 .hero-image-gallery {
   height: 95rem;
   width: 100%; 
@@ -184,15 +195,15 @@ nav {
   
 }
 
-.gallery {
-  margin: 3rem 1rem;   
-  display: inline;    
+.gallery {     
+  display: inline; 
+     
 }
 
 .box-shadow {
   box-shadow: rgba(136, 12, 136, 0.35) 0px 5px 15px;
-  width: 500px;
-  margin: 10px 10px;
+  width: 50rem;
+  margin: 1rem 1rem;  
 }
 img.box-shadow:hover {
   box-shadow: rgba(136, 12, 136, 0.35) 10px 15px 25px;  
@@ -216,32 +227,38 @@ img.box-shadow:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;   
-  max-width: 100%;
+  width: 90%;
   margin: 3rem 0;
+  
 }
 .download-recommended {
-  max-width: 100%;
-  padding: 3rem 1rem;
+  width: 60%;
+  padding: 3rem 2.5rem;
   display: flex;
   flex-direction: column;
+  
 }
 .download-recommended h3 {
   word-break: break-all;
+  font-size: 3.5rem;  
 }
+
 .download-box {
-  max-width: 100%;
-  height: 4rem;
-  padding: 3rem 1rem;
+  width: 35%;
+  height: 6rem;
+  margin-top: 7rem;
+  padding: 3rem 2.5rem;
   display: flex;
   flex-direction: column;
   border: 1px solid #47476b;
-  border-radius: 50%;
+  border-radius: 15rem;
   justify-content: center;
-  background-color: #47476b;
+  background-color: #47476b; 
+  
 }
 .download-box a {
   text-decoration: none;
-  color: #0b060e;
+  color: #ffffff;
   
 }
 
@@ -263,15 +280,15 @@ img.box-shadow:hover {
   text-decoration: none;
  }
  #footer a:hover {
-  transform: scale(1.1);
+  text-transform: uppercase;
  }
  #copyright {  
-  padding: 1rem;
+  padding: 1.5rem;
  }
 
  /* media */
 
- @media (max-width: 40rem) {
+ @media (max-width: 400px) {
   .menu-button {
     display: flex;
    }  
@@ -307,5 +324,24 @@ img.box-shadow:hover {
   .home-text {
     flex-direction: column;   
 
+  }
+}
+@media (max-width: 950px) {
+  .download-div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;    
+  }
+  .download-box {
+    width: fit-content;  
+  }
+  .download-recommended {
+    width: 80%;
+  }
+}
+@media (max-width: 500px){
+  .hero-image {
+    height: auto;
+    width: 100%;
   }
 }
