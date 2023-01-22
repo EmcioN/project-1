@@ -175,10 +175,11 @@ nav {
 .div-gallery {
   width: 95%;
   height: auto;
-  display: grid;
-  grid-template-columns: repeat(3, auto);  
-  grid-gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;  
   align-items: center;
+  justify-content: center;
+  justify-items: center;
 
 }
 .hero-image-gallery {
@@ -196,7 +197,7 @@ nav {
 }
 
 .gallery {     
-  display: inline; 
+  display: inline;   
      
 }
 
@@ -320,7 +321,7 @@ img.box-shadow:hover {
    }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
   .home-text {
     flex-direction: column;   
 
