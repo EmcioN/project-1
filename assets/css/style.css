@@ -146,10 +146,11 @@ nav {
 }
 
 .hero-text {
-  font-size: 2rem;
-  text-align: justify ;
-  color:#8cb9b9;
-  max-width: 80%; 
+  font-size: 4.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color:#5dd3d3;
+  max-width: 90%; 
   font-family:'Lucida Console';
 }
 
@@ -183,6 +184,26 @@ nav {
   }
 }
 
+/* Tips section */ 
+
+.span-size {
+  font-size: 2.5rem;
+  font-weight: 300; 
+  margin: 2rem 0; 
+
+}
+.text-position {
+  margin: 3rem 2rem;
+  padding: 1rem 3rem;
+  width: 70vw
+  
+}
+.space-between {
+  margin-bottom: 3rem;
+}
+
+
+
 /* gallery */
 
 .hero-image-gallery {
@@ -215,13 +236,11 @@ nav {
   margin-bottom: 3rem;
 }
 .gallery {
-  margin: 1rem;    
+  margin: 3rem 1rem;    
   width: 40vw;
   display: inline;    
 }
-.empty {
-  max-height: 5rem;
-}
+
 .box-shadow {
   box-shadow: rgba(136, 12, 136, 0.35) 0px 5px 15px;
   width: 500px;
@@ -236,9 +255,26 @@ img.box-shadow:hover {
 .download-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around; 
+  max-width: 90%;
+  margin: 3rem 0;
 }
-
+.download-recommended {
+  max-width: 30%;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #47476b;
+}
+.download-box {
+  max-width: 30%;
+  height: 4rem;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #47476b;
+  justify-content: center;
+}
 
 /* footer */
 
