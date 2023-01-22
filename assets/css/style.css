@@ -1,11 +1,12 @@
 html {
-    height: 100%;
-    width: 100%;
-    font-size: 62.5%;
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+    
   }
   * {
     outline: 1px solid red;
-    box-sizing: border-box;
+    box-sizing: border-box;    
   }  
 body {
     font-family: 'Lucida Console', 'Open Sans', sans-serif;
@@ -107,8 +108,7 @@ nav {
     background-image: url("../img/hero1.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;    
-    padding: 4rem;
+    background-position: center;       
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -121,6 +121,7 @@ nav {
   color:#5dd3d3;
   max-width: 90%; 
   font-family:'Lucida Console';
+  margin-top: 7rem;
 }
 
 
@@ -150,10 +151,9 @@ nav {
 
 /* Tips section */ 
 
-.text-position {
-  margin: 3rem 2rem;
-  padding: 1rem 3rem; 
+.text-position  li{  
   width: 90%; 
+  height: auto;
   display: flex;
   flex-direction: column;
   
@@ -170,8 +170,7 @@ nav {
   background-image: url("../img/hero2.png"); 
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;    
-  padding: 2rem;
+  background-position: center; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -193,6 +192,18 @@ img.box-shadow:hover {
 
 }
 /* Download section */
+.hero-image-download {
+  height: 95rem;
+  width: 100%; 
+  background: #444444;
+  background-image: url("../img/warzone-2-landing.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;       
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+}
 
 .download-div {
   display: flex;
