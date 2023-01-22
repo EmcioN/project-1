@@ -81,7 +81,7 @@ nav {
 .menu-button {
   position: absolute;
   top: 2rem;
-  right: 9rem;  
+  right: 3rem;  
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -132,7 +132,7 @@ nav {
 /* hero image */
 
 .hero-image {
-    height: 90rem;
+    height: 95rem;
     width: 100%;
     background: #444444;
     background-image: url("../img/hero1.jpg"); 
@@ -186,20 +186,11 @@ nav {
 
 /* Tips section */ 
 
-.span-size {
-  font-size: 2.5rem;
-  font-weight: 300; 
-  margin: 2rem 0; 
-
-}
 .text-position {
   margin: 3rem 2rem;
   padding: 1rem 3rem;
-  width: 70vw
+  width: ;
   
-}
-.space-between {
-  margin-bottom: 3rem;
 }
 
 
@@ -220,21 +211,6 @@ nav {
   justify-content: center;
 }
 
-.span-size {
-  font-size: 2.5rem;
-  font-weight: 300; 
-  margin: 2rem 0; 
-
-}
-.text-position {
-  margin: 3rem 2rem;
-  padding: 1rem 3rem;
-  width: 70vw
-  
-}
-.space-between {
-  margin-bottom: 3rem;
-}
 .gallery {
   margin: 3rem 1rem;    
   width: 40vw;
