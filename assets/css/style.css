@@ -116,14 +116,14 @@ nav {
 }
 
 .hero-text {
-  font-size: 4.5rem;
+  font-size: 4vh;
   font-weight: 800;
   text-transform: uppercase;
   color:#5dd3d3;
   max-width: 90%; 
   font-family:'Lucida Console';
   margin-top: 7rem;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 
@@ -240,7 +240,7 @@ img.box-shadow:hover {
   
 }
 .download-recommended h3 {
-  word-break: break-all;
+  word-break: break-normal;
   font-size: 3.5rem;  
 }
 
@@ -319,6 +319,7 @@ img.box-shadow:hover {
    .nav-buttons.active{
     display: flex;
    }
+   
 }
 
 @media (max-width: 1350px) {
@@ -345,4 +346,5 @@ img.box-shadow:hover {
     height: auto;
     width: 100%;
   }
+  
 }
