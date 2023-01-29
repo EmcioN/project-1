@@ -1,108 +1,107 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Warzone 2.0 Tips and Tricks
+# Goal for the Project
+This website is all about Warzone 2.0 tips and tricks. Here you will find everything you need to know in order to make the most out of your experience with the game. It also contain images from the game and download link for new players.
+# Table of Contents
+* UX
+    * User Goals
+    * User Stories
+    * Site Owners Goals
+    * User Requirements and Expectations
+        * Requirements
+        * Expectations
+    * Design Choices
+        * Fonts
+        * Icons
+        * Colours
+        * Structurte
+    * Features
+        * Navigation Bar
+        * Main Section
+        * Tips and Tricks Section
+        * Gallery Section
+        * Download Section
+        * Find Me Section
+    * Technologies used
+        * Languages
+        * Tools
+    * Testing 
+    * Deployment
+    * Credits
+# UX
+## User Goals
+* Visually appealing, including images.
+* Valuable content. 
+* Easily navigated.
+## User Stories
+* As a user, I want to know how to improve my gameplay.
+* As a user, I want to know how the game looks like.
+* As a user, I want to know how I can download the game.
+* As a user, I want to know where I can find more information about creator.
+* As a user, I want to be able to easily navigate through the website.
+## Site owner Goals
+* Help other struggling gamers.
+* Show to new players how the game looks like.
+* Show to new players where they can start their adventure with the game.
+### Requirements
+* Easy to navigate on various screen sizes.
+* Visually inviting 
+* Helpful information
+### Expectations
+* I expect all navigation links to work correctly.
+* I expect all information to be correct and accurate.
+* I expect all images in gallery to be opened in a new tab.
+* I expect all links to social media sites to be opened in a new tab.
+## Design Choices
+### Font
+Open Sans is a clean and modern font that's perfect for any website. It's easy to read on screens of all sizes, making it ideal for web and mobile use.
+### Icons
+Icons make text on webpages easier to understand. I use Font Awesome icons because they're easy to use and look great.
+### Colours
+On my website I used darker colors. Mainly we will see shades of purple and blue. The background of the page is an image and it is a starry sky.
+* #0b060e - This colour will be used as a backgroung behind navigation bar and footer.
+* #47476b - This colour will be used as a backgroung behind download buttons.
+* rgb(136 12 136 / 35%) - This colour will be used as a images shadow.
+* #ffffff - This colour will be used as a text colour.
+### Structure
+The site will work on small and large screens. On small screens, we will see a menu button in the navigation bar. Everything else will scale accordingly.
+## Features
+### Navigation Bar
+The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily.
+### Main Section 
+The image is to show the user that this is a player zone. The text in the image tells you what the page is about. You will also find a brief description of the game.
+### Tips and Tricks Section
+Here you will find a list of tips that will help you improve your gaming. This is the main section of the site. The tips are for new and experienced players
+### Gallery Section
+Images can be displayed in a new tab by clicking on them.
+### Download Section
+A new player can use this section to check what the game requires. Additionally, there are two ways to download the game.
+### Find Me Section
+Located at the bottom of the page you will find several icons linking out to social media 
+## Tehnologies used
+### Languages 
+* HTML
+* CSS
+* JavaScript
+### Tools
+* Gitpod
+* Github
+* W3C HTML Validation Service 
+* W3C CSS Validation Service
+* Font Awesome
+* Google Fonts
+## Testing
+I run both validators for html and css. I had no bugs.
+## Deployment  
+After the initial code had been committed and pushed to GitHub, it was time to deploy the project. This project was deployed using GitHub by the following steps.
+* Navigate to the repository on github and click 'Settings'.
+* Select 'Pages' on the side navigation.
+* Select the 'None' dropdown, and then click 'main'.
+* Click on the 'Save' button.
+* Now the website is now live on https://emcion.github.io/project-1/
+## Credits 
+For help, advice and insperation
+* Simen Daehlin
 
-Welcome EmcioN,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+For insperation and content.
+* Sam Timmins
+* Call of Duty: Warzone 2.0
