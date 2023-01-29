@@ -1,32 +1,37 @@
+* {    
+  box-sizing: border-box;
+        
+  }  
+
 html {
   font-size: 62.5%;
   height: 100%;
   width: 100%;
     
   }
-  * {    
-    box-sizing: border-box;
-        
-  }  
+  
 body {
-    font-family: 'Lucida Console', 'Open Sans', sans-serif;
-    font-size: 2rem;
-    background-color: #47476b;
-    background-image: url("../img/stars.jpeg");    
-    margin: 0;
-    padding: 0;
-    position: absolute;    
-  }      
+  font-family:'Open Sans', sans-serif;
+  font-size: 2rem;
+  background-color: #47476b;
+  background-image: url("../img/stars.jpeg");    
+  margin: 0;
+  padding: 0;
+  position: absolute;      
+  }
 
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
 .text-color-white {
   color:#ffffff;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
   /* navbar */
+
+
 header {
   background-color: #0b060e;
   height: 6rem;
@@ -38,47 +43,54 @@ header {
 
 #header {
   border: 1px solid #0b060e;
-  border-radius: 17%;  
-  
+  border-radius: 17%; 
+
+  /* I use % because of the shape I wanted to achieve */
   
 }  
 nav {
   font-size: 2rem;
 }
+
 .logo-image {
   width: 8rem;
   height: 5rem;
   border-radius: 50%;  
   overflow: hidden;  
-}  
+}
+
 .logo-image img {
   height: 100%;
 }
+
 .nav-bar {
   display: flex;  
   align-items: center;
   justify-content: center;
 }
+
 .nav-buttons {  
   text-align: center;
   display: flex;  
   list-style: none;
   justify-content: center;
-  font-family:'Lucida Console'; 
-  
-
+  font-family:'Open Sans', sans-serif;
 }
 
 .nav-bar li {
   margin-left: 3rem;
   
 }
+
 .nav-bar a {
   text-decoration: none;
+  color: #ffffff;
 }
-.nav-buttons  li:hover{
+
+.nav-buttons  li:hover {
   transform: scale(1.1);
 }
+
 .menu-button {
   position: absolute;
   top: 2rem;
@@ -90,6 +102,7 @@ nav {
   height: 2rem;
   
 }
+
 .menu-button .line {
   height: 3px;
   width: 100%;
@@ -99,29 +112,29 @@ nav {
 }
 
 
-
 /* hero image */
 
+
 .hero-image {
-    height: 95rem;
-    width: 100%; 
-    background: #444444;
-    background-image: url("../img/hero1.jpg"); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;       
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+  height: 95rem;
+  width: 100%; 
+  background: #444444;
+  background-image: url("../img/hero1.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;       
+  display: flex;
+  align-items: center;
+  justify-content: center;    
 }
 
 .hero-text {
-  font-size: 4vh;
+  font-size: 2rem;
   font-weight: 800;
   text-transform: uppercase;
-  color:#5dd3d3;
+  color:#ffffff;
   max-width: 90%; 
-  font-family:'Lucida Console';
+  font-family:'Open Sans', sans-serif;
   margin-top: 7rem;
   word-break: break-word;
 }
@@ -129,19 +142,23 @@ nav {
 
 /* Home text and image */
 
+
 .home-text {
   width: 90%;
-  font-family: 'Lucida Console', monospace;
-  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
   display: flex;  
   padding: 1rem;
   margin: 1.5rem;
   font-size: 1.5rem;
 }
+
 .home-img {
-  width: 65rem;
+  height: auto;
+  max-width: 100%;
+  width: 50%;
   margin: 1.5rem;
-  display: flex;   
+  display: flex;     
 
 }
 .home-div {
@@ -153,35 +170,35 @@ nav {
 
 /* Tips section */ 
 
+
 .text-position {
   margin: 3rem 2rem;
   padding: 1rem 3rem; 
   width: 90%; 
   height: auto;
   display: flex;
-  flex-direction: column;
-
-  
+  flex-direction: column;  
 }
 
 .text-box {
   width: 100%;
+  max-width: 100%;
+  height: auto;
 }
-
 
 
 /* gallery */
 
+
 .div-gallery {
-  width: 95%;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;  
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-
+  justify-content: space-around;
 }
+
 .hero-image-gallery {
   height: 95rem;
   width: 100%; 
@@ -197,20 +214,29 @@ nav {
 }
 
 .gallery {     
-  display: inline;   
+  display: inline;
+  justify-content: center;
+  height: auto;
+  max-width: 100%;
+
      
 }
 
 .box-shadow {
   box-shadow: rgba(136, 12, 136, 0.35) 0px 5px 15px;
   width: 50rem;
-  margin: 1rem 1rem;  
+  margin: 1rem 0;  
 }
+
 img.box-shadow:hover {
   box-shadow: rgba(136, 12, 136, 0.35) 10px 15px 25px;  
 
 }
+
+
 /* Download section */
+
+
 .hero-image-download {
   height: 95rem;
   width: 100%; 
@@ -227,26 +253,28 @@ img.box-shadow:hover {
 .download-div {
   display: flex;
   flex-direction: row;
-  justify-content: center;   
+  justify-content: space-between;   
   width: 90%;
   margin: 3rem 0;
   
 }
+
 .download-recommended {
-  width: 60%;
+  width: 50%;
   padding: 3rem 2.5rem;
   display: flex;
   flex-direction: column;
   
 }
+
 .download-recommended h3 {
   word-break: break-normal;
   font-size: 3.5rem;  
 }
 
 .download-box {
-  width: 35%;
-  height: 6rem;
+  width: 17rem;
+  height: 10rem;
   margin-top: 7rem;
   padding: 3rem 2.5rem;
   display: flex;
@@ -254,14 +282,12 @@ img.box-shadow:hover {
   border: 1px solid #47476b;
   border-radius: 15rem;
   justify-content: center;
-  background-color: #47476b; 
-  
-}
-.download-box a {
-  text-decoration: none;
+  background-color: #47476b;
   color: #ffffff;
+  text-decoration: none; 
   
 }
+
 
 /* footer */
 
@@ -277,17 +303,23 @@ img.box-shadow:hover {
   margin: 0;
      
  }
+
  #footer a {
   text-decoration: none;
+  color:#ffffff;
  }
+
  #footer a:hover {
   text-transform: uppercase;
  }
+
  #copyright {  
   padding: 1.5rem; 
  }
 
+
  /* media */
+
 
  @media (max-width: 520px) {
   .menu-button {
@@ -298,6 +330,7 @@ img.box-shadow:hover {
     flex-direction: column;
     align-items: center;
    }
+
   .nav-buttons {
     display: none;
     padding: 1rem 2rem;
@@ -310,12 +343,14 @@ img.box-shadow:hover {
     background-color: #0b060e;
     border-radius: 10rem;
    }
+
   .nav-buttons li {
     text-align: center;
     padding: 1rem;
   
    
    }
+
    .nav-buttons.active{
     display: flex;
    }
@@ -327,20 +362,29 @@ img.box-shadow:hover {
     flex-direction: column;   
 
   }
+
 }
+
 @media (max-width: 950px) {
   .download-div {
     display: flex;
     flex-direction: column;
-    padding-left: 3rem;    
+    padding-left: 3rem;        
   }
+  #footer {
+    height: auto;
+  }
+
   .download-box {
     width: fit-content;  
   }
+
   .download-recommended {
     width: 80%;
   }
+
 }
+
 @media (max-width: 500px){
   .hero-image {
     height: auto;
