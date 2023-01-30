@@ -273,7 +273,7 @@ img.box-shadow:hover {
 }
 
 .download-box {
-  width: 17rem;
+  width: 22rem;
   height: 10rem;
   margin-top: 7rem;
   padding: 3rem 2.5rem;
@@ -336,7 +336,7 @@ img.box-shadow:hover {
     padding: 1rem 2rem;
     flex-direction: column;
     align-items: center;
-    width: 25rem;
+    width: 100%;
     position: fixed;
     right: 1rem;
     top: 4rem;
