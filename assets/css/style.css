@@ -16,8 +16,7 @@ body {
   background-color: #47476b;
   background-image: url("../img/stars.jpeg");    
   margin: 0;
-  padding: 0;
-  position: absolute;      
+  padding: 0;        
   }
 
 .text-color-white {
@@ -177,7 +176,7 @@ nav {
   width: 90%; 
   height: auto;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;   
 }
 
 .text-box {
@@ -269,7 +268,7 @@ img.box-shadow:hover {
 
 .download-recommended h3 {
   word-break: break-normal;
-  font-size: 3.5rem;  
+  font-size: 3rem;  
 }
 
 .download-box {
@@ -321,7 +320,7 @@ img.box-shadow:hover {
  /* media */
 
 
- @media (max-width: 520px) {
+ @media (max-width: 590px) {
   .menu-button {
     display: flex;
    }  
@@ -387,8 +386,38 @@ img.box-shadow:hover {
 
 @media (max-width: 500px){
   .hero-image {
-    height: auto;
+    height: 50rem;
     width: 100%;
   }
+  .hero-image-download {
+    height: 50rem;
+  }
+  .hero-image-gallery {
+    height: 50rem;
+  }
   
+}
+
+@media (max-width: 310px){
+  h1 {
+    font-size: 2rem;
+  } 
+  h2{
+    font-size: 1.5rem;  
+  }
+  .download-recommended {
+    padding: .5rem 0;
+  }
+  .download-recommended h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: .8rem;
+  }
+  li {
+    font-size: .7rem;
+  }
+  .download-box a {
+    font-size: 1.2rem;
+  }
 }
