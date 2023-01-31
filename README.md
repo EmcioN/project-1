@@ -2,31 +2,30 @@
 # Goal for the Project
 This website is all about Warzone 2.0 tips and tricks. Here you will find everything you need to know in order to make the most out of your experience with the game. It also contain images from the game and download link for new players.
 # Table of Contents
-* UX
-    * User Goals
-    * User Stories
-    * Site Owners Goals
-    * User Requirements and Expectations
-        * Requirements
-        * Expectations
-    * Design Choices
-        * Fonts
-        * Icons
-        * Colours
-        * Structurte
-    * Features
-        * Navigation Bar
-        * Main Section
-        * Tips and Tricks Section
-        * Gallery Section
-        * Download Section
-        * Find Me Section
-    * Technologies used
-        * Languages
-        * Tools
-    * Testing 
-    * Deployment
-    * Credits
+- [UX](#ux)
+  * [User Goals](#user-goals)
+  * [User Stories](#user-stories)
+  * [Site owner Goals](#site-owner-goals)
+    * [Requirements](#requirements)
+    * [Expectations](#expectations)
+  * [Design Choices](#design-choices)
+    * [Font](#font)
+    * [Icons](#icons)
+    * [Colours](#colours)
+    * [Structure](#structure)
+  * [Features](#features)
+    * [Navigation Bar](#navigation-bar)
+    * [Main Section](#main-section)
+    * [Tips and Tricks Section](#tips-and-tricks-section)
+    * [Gallery Section](#gallery-section)
+    * [Download Section](#download-section)
+    * [Find Me Section](#find-me-section)
+  * [Tehnologies used](#tehnologies-used)
+    * [Languages](#languages)
+    * [Tools](#tools)
+  * [Testing](#testing)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
 # UX
 ## User Goals
 * Visually appealing, including images.
