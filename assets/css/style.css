@@ -23,11 +23,6 @@ body {
   color:#ffffff;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
   /* navbar */
 
 
@@ -43,8 +38,8 @@ header {
 #header {
   border: 1px solid #0b060e;
   border-radius: 17%; 
-
-  /* I use % because of the shape I wanted to achieve */
+/* I use % because of the shape I wanted to achieve */
+  
   
 }  
 nav {
