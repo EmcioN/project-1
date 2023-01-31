@@ -266,7 +266,7 @@ img.box-shadow:hover {
   
 }
 
-.download-recommended h3 {
+.download-recommended h2 {
   word-break: break-normal;
   font-size: 3rem;  
 }
@@ -408,7 +408,7 @@ img.box-shadow:hover {
   .download-recommended {
     padding: .5rem 0;
   }
-  .download-recommended h3 {
+  .download-recommended h2 {
     font-size: 1rem;
   }
   p {
