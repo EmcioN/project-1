@@ -189,7 +189,8 @@ img {
 
 .hero-image-gallery {
   height: 95rem;
-  width: 100%; 
+  width: 100%;
+  max-width: 100%; 
   background: #444444;
   background-image: url("../img/hero2.png"); 
   background-size: cover;
@@ -367,14 +368,14 @@ img.box-shadow:hover {
 
 @media (max-width: 500px){
   .hero-image {
-    height: 50rem;
+    height: 55rem;
     width: 100%;
   }
   .hero-image-download {
-    height: 50rem;
+    height: 55rem;
   }
   .hero-image-gallery {
-    height: 50rem;
+    height: 55rem;
   }
   
 }
@@ -393,18 +394,11 @@ img.box-shadow:hover {
   }
 
   .download-recommended h2 {
-    font-size: 1rem;
-  }
-
-  p {
-    font-size: .8rem;
+    font-size: 1.4rem;
   }
 
   li {
-    font-size: .7rem;
-  }
-
-  .download-box a {
     font-size: 1.2rem;
   }
+  
 }
