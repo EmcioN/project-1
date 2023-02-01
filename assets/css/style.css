@@ -68,8 +68,7 @@ nav {
   text-align: center;
   display: flex;  
   list-style: none;
-  justify-content: center;
-  font-family:'Open Sans', sans-serif;
+  justify-content: center;  
 }
 
 .nav-bar li {
@@ -125,8 +124,7 @@ nav {
   font-weight: 800;
   text-transform: uppercase;
   color:#ffffff;
-  max-width: 90%; 
-  font-family:'Open Sans', sans-serif;
+  max-width: 90%;   
   margin-top: 7rem;
   word-break: break-word;
 }
@@ -136,8 +134,7 @@ nav {
 
 
 .home-text {
-  width: 90%;
-  font-family: 'Open Sans', sans-serif;
+  width: 90%;  
   text-align: center;
   display: flex;  
   padding: 1rem;
@@ -402,7 +399,7 @@ img.box-shadow:hover {
   li {
     font-size: .7rem;
   }
-  
+
   .download-box a {
     font-size: 1.2rem;
   }
