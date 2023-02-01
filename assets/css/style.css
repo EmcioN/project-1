@@ -7,21 +7,18 @@
 html {
   font-size: 62.5%;
   height: 100%;
-  width: 100%;    
+  width: 100%;
+  scroll-behavior: smooth;    
   }
   
 body {
   font-family:'Open Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   background-color: #47476b;
   background-image: url("../img/stars.jpeg");    
   margin: 0;
   padding: 0;        
   }
-
-.text-color-white {
-  color:#ffffff;
-}
 
 
   /* navbar */
@@ -34,15 +31,13 @@ header {
   position:fixed;
   z-index: 1;
   display:flex;
-}
-/* I use % because of the shape I wanted to achieve */
-#header {
   border: 1px solid #0b060e;
-  border-radius: 17%; 
+  border-radius: 17%;
+}
 
-  
-  
-}  
+/* I use % because of the shape I wanted to achieve */
+
+
 nav {
   font-size: 2rem;
 }
@@ -275,8 +270,7 @@ img.box-shadow:hover {
 #footer {
   background: #0b060e;
   height: 10rem;
-  width: 100%;
-  font-family: 'Lucida Console';
+  width: 100%;  
   color: #ffffff;
   padding: 2rem;
   text-align:center;
@@ -295,6 +289,9 @@ img.box-shadow:hover {
  #copyright {  
   padding: 1.5rem; 
  }
+
+
+
 
 
  /* media */
