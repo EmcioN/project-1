@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans&family=Oswald&display=swap');
+
 * {    
-  box-sizing: border-box;
-        
+  box-sizing: border-box;        
   }  
 
 html {
   font-size: 62.5%;
   height: 100%;
-  width: 100%;
-    
+  width: 100%;    
   }
   
 body {
@@ -23,6 +23,7 @@ body {
   color:#ffffff;
 }
 
+
   /* navbar */
 
 
@@ -34,11 +35,11 @@ header {
   z-index: 1;
   display:flex;
 }
-
+/* I use % because of the shape I wanted to achieve */
 #header {
   border: 1px solid #0b060e;
   border-radius: 17%; 
-/* I use % because of the shape I wanted to achieve */
+
   
   
 }  
@@ -72,8 +73,7 @@ nav {
 }
 
 .nav-bar li {
-  margin-left: 3rem;
-  
+  margin-left: 3rem;  
 }
 
 .nav-bar a {
@@ -93,8 +93,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   width: 3rem;
-  height: 2rem;
-  
+  height: 2rem;  
 }
 
 .menu-button .line {
@@ -102,7 +101,6 @@ nav {
   width: 100%;
   background-color: #9422d6;
   border-radius: 1rem;
-
 }
 
 
@@ -152,13 +150,11 @@ nav {
   max-width: 100%;
   width: 50%;
   margin: 1.5rem;
-  display: flex;     
-
+  display: flex;
 }
 .home-div {
   display: flex; 
-  margin: 1.5rem; 
-
+  margin: 1.5rem;
 }
 
 
@@ -203,17 +199,14 @@ nav {
   background-position: center; 
   display: flex;
   align-items: center;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 .gallery {     
   display: inline;
   justify-content: center;
   height: auto;
-  max-width: 100%;
-
-     
+  max-width: 100%;     
 }
 
 .box-shadow {
@@ -223,8 +216,7 @@ nav {
 }
 
 img.box-shadow:hover {
-  box-shadow: rgba(136, 12, 136, 0.35) 10px 15px 25px;  
-
+  box-shadow: rgba(136, 12, 136, 0.35) 10px 15px 25px;
 }
 
 
@@ -249,16 +241,14 @@ img.box-shadow:hover {
   flex-direction: row;
   justify-content: space-between;   
   width: 90%;
-  margin: 3rem 0;
-  
+  margin: 3rem 0;  
 }
 
 .download-recommended {
   width: 50%;
   padding: 3rem 2.5rem;
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column;  
 }
 
 .download-recommended h2 {
@@ -278,8 +268,7 @@ img.box-shadow:hover {
   justify-content: center;
   background-color: #47476b;
   color: #ffffff;
-  text-decoration: none; 
-  
+  text-decoration: none;  
 }
 
 
@@ -294,8 +283,7 @@ img.box-shadow:hover {
   color: #ffffff;
   padding: 2rem;
   text-align:center;
-  margin: 0;
-     
+  margin: 0;     
  }
 
  #footer a {
@@ -340,9 +328,7 @@ img.box-shadow:hover {
 
   .nav-buttons li {
     text-align: center;
-    padding: 1rem;
-  
-   
+    padding: 1rem;   
    }
 
    .nav-buttons.active{
@@ -353,8 +339,7 @@ img.box-shadow:hover {
 
 @media (max-width: 1350px) {
   .home-text {
-    flex-direction: column;   
-
+    flex-direction: column;
   }
 
 }
@@ -365,6 +350,7 @@ img.box-shadow:hover {
     flex-direction: column;
     padding-left: 3rem;        
   }
+
   #footer {
     height: auto;
   }
@@ -376,7 +362,6 @@ img.box-shadow:hover {
   .download-recommended {
     width: 80%;
   }
-
 }
 
 @media (max-width: 500px){
@@ -396,22 +381,28 @@ img.box-shadow:hover {
 @media (max-width: 310px){
   h1 {
     font-size: 2rem;
-  } 
+  }
+
   h2{
     font-size: 1.5rem;  
   }
+
   .download-recommended {
     padding: .5rem 0;
   }
+
   .download-recommended h2 {
     font-size: 1rem;
   }
+
   p {
     font-size: .8rem;
   }
+
   li {
     font-size: .7rem;
   }
+  
   .download-box a {
     font-size: 1.2rem;
   }
