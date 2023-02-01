@@ -90,7 +90,8 @@ Located at the bottom of the page you will find several icons linking out to soc
 * W3C HTML Validation Service 
 * W3C CSS Validation Service
 ### Testing
-I run both validators for html and css. I had no bugs.
+Html Validator
+Css Validator
 ### Deployment  
 After the initial code had been committed and pushed to GitHub, it was time to deploy the project. This project was deployed using GitHub by the following steps.
 * Navigate to the repository on github and click **Settings**.
@@ -99,8 +100,8 @@ After the initial code had been committed and pushed to GitHub, it was time to d
 * Click on the **Save** button.
 * Now the website is now live on https://emcion.github.io/project-1/
 ### Credits 
-For help, advice and insperation
+#### For help, advice and insperation
 * [Simen Daehlin](https://github.com/Eventyret)
-For insperation and content.
+#### For insperation and content.
 * [Sam Timmins](https://github.com/sam-timmins)
 * [Call of Duty: Warzone 2.0](https://www.callofduty.com/warzone)

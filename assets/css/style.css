@@ -20,10 +20,6 @@ body {
   padding: 0;        
   }
 
-
-  /* navbar */
-
-
 header {
   background-color: #0b060e;
   height: 6rem;
@@ -32,15 +28,17 @@ header {
   z-index: 1;
   display:flex;
   border: 1px solid #0b060e;
+  /* I use % because of the shape I wanted to achieve */
   border-radius: 17%;
 }
-
-/* I use % because of the shape I wanted to achieve */
-
 
 nav {
   font-size: 2rem;
 }
+
+
+  /* navbar */
+
 
 .logo-image {
   width: 8rem;
@@ -140,6 +138,13 @@ img {
   padding: 1rem;
   margin: 1.5rem;  
   color:#ffffff;
+}
+
+.home-heading {
+  color: #ffffff;
+  text-align: center;
+  padding: 3rem 0;
+  
 }
 
 .home-img {
