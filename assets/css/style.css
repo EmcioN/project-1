@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Open+Sans&family=Oswald&display=swap');
 
 * {    
-  box-sizing: border-box;        
+  box-sizing: border-box;         
   }  
 
 html {
@@ -297,9 +297,6 @@ img.box-shadow:hover {
  #copyright {  
   padding: 1.5rem; 
  }
-
-
-
 
 
  /* media */
