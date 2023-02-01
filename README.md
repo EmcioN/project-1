@@ -93,10 +93,10 @@ Located at the bottom of the page you will find several icons linking out to soc
 I run both validators for html and css. I had no bugs.
 ### Deployment  
 After the initial code had been committed and pushed to GitHub, it was time to deploy the project. This project was deployed using GitHub by the following steps.
-* Navigate to the repository on github and click 'Settings'.
-* Select 'Pages' on the side navigation.
-* Select the 'None' dropdown, and then click 'main'.
-* Click on the 'Save' button.
+* Navigate to the repository on github and click **Settings**.
+* Select **Pages** on the side navigation.
+* Select the **None** dropdown, and then click **Main**.
+* Click on the **Save** button.
 * Now the website is now live on https://emcion.github.io/project-1/
 ### Credits 
 For help, advice and insperation
