@@ -101,6 +101,11 @@ nav {
 /* hero image */
 
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .hero-image {
   height: 95rem;
   width: 100%; 
@@ -133,8 +138,8 @@ nav {
   text-align: center;
   display: flex;  
   padding: 1rem;
-  margin: 1.5rem;
-  font-size: 1.5rem;
+  margin: 1.5rem;  
+  color:#ffffff;
 }
 
 .home-img {
@@ -166,6 +171,7 @@ nav {
   width: 100%;
   max-width: 100%;
   height: auto;
+  color:#ffffff;
 }
 
 
@@ -240,7 +246,8 @@ img.box-shadow:hover {
   width: 50%;
   padding: 3rem 2.5rem;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+  color:#ffffff;  
 }
 
 .download-recommended h2 {
