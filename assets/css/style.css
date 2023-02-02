@@ -157,6 +157,7 @@ img {
 .home-div {
   display: flex; 
   margin: 1.5rem;
+  font-size: 1.7rem;
 }
 
 
@@ -388,7 +389,7 @@ img.box-shadow:hover {
   }
 
   h2{
-    font-size: 1.5rem;  
+    font-size: 1.8rem;  
   }
 
   .download-recommended {
@@ -396,11 +397,11 @@ img.box-shadow:hover {
   }
 
   .download-recommended h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   
 }
