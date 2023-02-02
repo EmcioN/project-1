@@ -40,44 +40,44 @@ nav {
   /* navbar */
 
 
-.logo-image {
+#logo-image {
   width: 8rem;
   height: 5rem;
   border-radius: 50%;  
   overflow: hidden;  
 }
 
-.logo-image img {
+#logo-image img {
   height: 100%;
 }
 
-.nav-bar {
+#nav-bar {
   display: flex;  
   align-items: center;
   justify-content: center;
 }
 
-.nav-buttons {  
+#nav-buttons {  
   text-align: center;
   display: flex;  
   list-style: none;
   justify-content: center;  
 }
 
-.nav-bar li {
+#nav-bar li {
   margin-left: 3rem;  
 }
 
-.nav-bar a {
+#nav-bar a {
   text-decoration: none;
   color: #ffffff;
 }
 
-.nav-buttons  li:hover {
+#nav-buttons  li:hover {
   transform: scale(1.1);
 }
 
-.menu-button {
+#menu-button {
   position: absolute;
   top: 2rem;
   right: 3rem;  
@@ -88,7 +88,7 @@ nav {
   height: 2rem;  
 }
 
-.menu-button .line {
+#menu-button #line {
   height: 3px;
   width: 100%;
   background-color: #9422d6;
@@ -131,7 +131,7 @@ img {
 /* Home text and image */
 
 
-.home-text {
+#home-text {
   width: 90%;  
   text-align: center;
   display: flex;  
@@ -140,21 +140,21 @@ img {
   color:#ffffff;
 }
 
-.home-heading {
+#home-heading {
   color: #ffffff;
   text-align: center;
   padding: 3rem 0;
   
 }
 
-.home-img {
+#home-img {
   height: auto;
   max-width: 100%;
   width: 50%;
   margin: 1.5rem;
   display: flex;
 }
-.home-div {
+#home-div {
   display: flex; 
   margin: 1.5rem;
   font-size: 1.7rem;
@@ -164,7 +164,7 @@ img {
 /* Tips section */ 
 
 
-.text-position {
+#text-position {
   margin: 3rem 2rem;
   padding: 1rem 3rem; 
   width: 90%; 
@@ -173,7 +173,7 @@ img {
   flex-direction: column;   
 }
 
-.text-box {
+#text-box {
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -184,7 +184,7 @@ img {
 /* gallery */
 
 
-.div-gallery {
+#div-gallery {
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -193,7 +193,7 @@ img {
   justify-content: space-around;
 }
 
-.hero-image-gallery {
+#hero-image-gallery {
   height: 95rem;
   width: 100%;
   max-width: 100%; 
@@ -241,7 +241,7 @@ img.box-shadow:hover {
   justify-content: center;    
 }
 
-.download-div {
+#download-div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;   
@@ -249,7 +249,7 @@ img.box-shadow:hover {
   margin: 3rem 0;  
 }
 
-.download-recommended {
+#download-recommended {
   width: 50%;
   padding: 3rem 2.5rem;
   display: flex;
@@ -257,7 +257,7 @@ img.box-shadow:hover {
   color:#ffffff;  
 }
 
-.download-recommended h2 {
+#download-recommended h2 {
   word-break: break-normal;
   font-size: 3rem;  
 }
@@ -308,49 +308,20 @@ img.box-shadow:hover {
  /* media */
 
 
- @media (max-width: 590px) {
-  .menu-button {
-    display: flex;
-   }  
-  
-  .header {
-    flex-direction: column;
-    align-items: center;
-   }
-
-  .nav-buttons {
-    display: none;
-    padding: 1rem 2rem;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    right: 1rem;
-    top: 4rem;
-    background-color: #0b060e;
-    border-radius: 10rem;
-   }
-
-  .nav-buttons li {
-    text-align: center;
-    padding: 1rem;   
-   }
-
-   .nav-buttons.active{
-    display: flex;
-   }
-   
-}
+ 
 
 @media (max-width: 1350px) {
-  .home-text {
-    flex-direction: column;
+  #home-text {
+    flex-direction: column;    
+  }
+  #home-img {
+    width: 70%
   }
 
 }
 
 @media (max-width: 950px) {
-  .download-div {
+  #download-div {
     display: flex;
     flex-direction: column;
     padding-left: 3rem;        
@@ -364,23 +335,54 @@ img.box-shadow:hover {
     width: fit-content;  
   }
 
-  .download-recommended {
+  #download-recommended {
     width: 80%;
   }
 }
 
+@media (max-width: 590px) {
+  #menu-button {
+    display: flex;
+   }  
+
+  #nav-buttons {
+    display: none;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    right: 1rem;
+    top: 4rem;
+    background-color: #0b060e;
+    border-radius: 10rem;
+   }
+
+  #nav-buttons li {
+    text-align: center;
+    padding: 1rem;   
+   }
+
+  #nav-buttons.active{
+    display: flex;
+   }
+   
+}
+
 @media (max-width: 500px){
-  .hero-image {
+  #hero-image {
     height: 55rem;
     width: 100%;
-  }
-  .hero-image-download {
+  }  
+
+  #hero-image-gallery {
     height: 55rem;
   }
-  .hero-image-gallery {
+ 
+  #hero-image-download {
     height: 55rem;
   }
-  
+ 
 }
 
 @media (max-width: 310px){
@@ -392,11 +394,11 @@ img.box-shadow:hover {
     font-size: 1.8rem;  
   }
 
-  .download-recommended {
+  #download-recommended {
     padding: .5rem 0;
   }
 
-  .download-recommended h2 {
+  #download-recommended h2 {
     font-size: 1.5rem;
   }
 
