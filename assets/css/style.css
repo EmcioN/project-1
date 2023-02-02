@@ -57,7 +57,7 @@ nav {
   justify-content: center;
 }
 
-#nav-buttons {  
+.nav-buttons {  
   text-align: center;
   display: flex;  
   list-style: none;
@@ -73,11 +73,11 @@ nav {
   color: #ffffff;
 }
 
-#nav-buttons  li:hover {
+.nav-buttons  li:hover {
   transform: scale(1.1);
 }
 
-#menu-button {
+.menu-button {
   position: absolute;
   top: 2rem;
   right: 3rem;  
@@ -88,11 +88,9 @@ nav {
   height: 2rem;  
 }
 
-#menu-button #line {
-  height: 3px;
-  width: 100%;
-  background-color: #9422d6;
-  border-radius: 1rem;
+.fa-bars {
+  color: #9422d6;
+  font-size: 2.5rem;
 }
 
 
@@ -340,11 +338,11 @@ img.box-shadow:hover {
 }
 
 @media (max-width: 590px) {
-  #menu-button {
+  .menu-button {
     display: flex;
    }  
 
-  #nav-buttons {
+  .nav-buttons {
     display: none;
     padding: 1rem 2rem;
     flex-direction: column;
@@ -357,12 +355,12 @@ img.box-shadow:hover {
     border-radius: 10rem;
    }
 
-  #nav-buttons li {
+  .nav-buttons li {
     text-align: center;
     padding: 1rem;   
    }
 
-  #nav-buttons.active{
+  .nav-buttons.active{
     display: flex;
    }
    
