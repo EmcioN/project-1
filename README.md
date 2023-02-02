@@ -90,16 +90,20 @@ Located at the bottom of the page you will find several icons linking out to soc
 * Github
 * W3C HTML Validation Service 
 * W3C CSS Validation Service
+* Wave webaim
 ### Testing
 #### Html Validator
-I had no major problems with the html. At first I had a warning that the style.css link does not require type="text/css". I quickly fixed it by removing redundant text. I had some missing things like p element in li tips and tricks section. With the help of a mentor, I was directed what I might be missing. As soon as I noticed it, I quickly fixed it by adding a p element to the text. Pictures from the gallery were outside the gallery section. As soon as I noticed the error, I moved the photos to the appropriate place.
+* I had no major problems with the html. At first I had a warning that the style.css link does not require type="text/css". I quickly fixed it by removing redundant text. I had some missing things like p element in li tips and tricks section. With the help of a mentor, I was directed what I might be missing. As soon as I noticed it, I quickly fixed it by adding a p element to the text. Pictures from the gallery were outside the gallery section. As soon as I noticed the error, I moved the photos to the appropriate place.
 HTML validation results
 ![Html](/assets/img/htmlgood.png)
 #### Css Validator
-With css it wasn't so easy anymore. The biggest problem I had with responsiveness. As soon as I tried to launch the page on a small screen, my hero image was cut off on the right side. It took me a long time to get everything working properly. The method I used to find the error was to remove elements from html one by one in devtools chrome. As soon as I found a bug, I styled it appropriately. Media Queries were very helpful here. The site should now work even on very small screens. After testing, I found 1 error and 1 warning. I got rid of redundant word-break in recommended section and changed word-break to word-wrap in hero text class.
+* With css it wasn't so easy anymore. The biggest problem I had with responsiveness. As soon as I tried to launch the page on a small screen, my hero image was cut off on the right side. It took me a long time to get everything working properly. The method I used to find the error was to remove elements from html one by one in devtools chrome. As soon as I found a bug, I styled it appropriately. Media Queries were very helpful here. The site should now work even on very small screens. After testing, I found 1 error and 1 warning. I got rid of redundant word-break in recommended section and changed word-break to word-wrap in hero text class.
 ![result](/assets/img/csserror.png)
-The code was a bit messy. I added comments and tidied up the free spaces between the properties. After running the test again, I did not encounter any errors.
+* The code was a bit messy. I added comments and tidied up the free spaces between the properties. After running the test again, I did not encounter any errors.
 ![result](/assets/img/cssnoerror.png)
+#### Wave webaim
+* I also did an accessibility evaluation. There is one error about empty link. This is the menu button. I don't want to be sent elsewhere, just expand the bar. Therefore, the error must remain. Everything else looks promising. No alerts. 
+![result](/assets/img/wavegood.png)
 
 ### Deployment  
 After the initial code had been committed and pushed to GitHub, it was time to deploy the project. This project was deployed using GitHub by the following steps.
