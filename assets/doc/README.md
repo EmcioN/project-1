@@ -90,7 +90,10 @@ Located at the bottom of the page you will find several icons linking out to soc
 * W3C HTML Validation Service 
 * W3C CSS Validation Service
 ### Testing
-Html Validator
+#### Html Validator
+I had no major problems with the html. At first I had a warning that the style.css link does not require type="text/css". I quickly fixed it by removing redundant text. I had some missing things like p element in li tips and tricks section. With the help of a mentor, I was directed what I might be missing. As soon as I noticed it, I quickly fixed it by adding a p element to the text. Pictures from the gallery were outside the gallery section. As soon as I noticed the error, I moved the photos to the appropriate place.
+HTML validation results
+![Html](/assets/img/htmlgood.png)
 Css Validator
 ### Deployment  
 After the initial code had been committed and pushed to GitHub, it was time to deploy the project. This project was deployed using GitHub by the following steps.
