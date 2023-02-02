@@ -124,7 +124,7 @@ img {
   color:#ffffff;
   max-width: 90%;   
   margin-top: 7rem;
-  word-break: break-word;
+  word-wrap: break-word;
 }
 
 
@@ -257,8 +257,7 @@ img.box-shadow:hover {
   color:#ffffff;  
 }
 
-#download-recommended h2 {
-  word-break: break-normal;
+#download-recommended h2 {  
   font-size: 3rem;  
 }
 
